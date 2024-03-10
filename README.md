@@ -8,10 +8,18 @@
  - Similarly, a sell trade can be opened when the lowest level is breached.
 
  This indicator assists traders implementing breakout strategies in identifying potential entry and exit points.
+
+### Output Table Description
+ - TotalWin: Total number of take profit (TP) instances
+ - TotalLoss: Total number of stop loss (SL) instances
+ - TotalTp: Total TP gains
+ - TotalSl: Total SL gains
+ - Tp: Remaining TP gains after deducting losses (totalTp - totalSl)
+ - Tp%: Win rate
+ - Open RR: Open trade profit/loss status
  
 ### Warning Note:
- It is not for generating buy-sell signals.
- Making a trading decision with this indicator alone can have negative consequences!
+ This indicator is designed to assess breakout strategies in the market. However, like any trading strategy, it can provide false signals and lead to losses. Exercise caution when using the indicator and ensure that each of your trades adheres to risk management principles. Additionally, past performance is not indicative of future results. Please conduct your own research and test your strategy before executing any trades.
 
  ### Screenshots:
 
